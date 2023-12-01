@@ -1,5 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Raleway:ital,wght@1,100;1,400&display=swap');
 
+[17:19, 1/12/2023] Alma Pescar: *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --padding-container: 100px 0;
+    --color-title: #121D40; 
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #DFFBFC;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+.hero{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #293241;
+}
+
+/* ---------------NAV--------------- */
+nav{
+    --padding-container: 0…
+[17:19, 1/12/2023] Alma Pescar: registro.css
+[17:19, 1/12/2023] Alma Pescar: @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Raleway:ital,wght@1,100;1,400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -262,7 +302,7 @@ h1{
     }
 }
 
-/*---------------- DETALLE CARD 1 --------------------*/
+/---------------- DETALLE CARD 1 --------------------/
 
 main {
     text-align: justify; 
@@ -290,8 +330,7 @@ main {
     margin-bottom: 30px;
 }
 
-
-/*---------------- FOOTER --------------------*/
+/---------------- FOOTER --------------------/
 .footer{
     background-color: #293241;
 }
@@ -353,6 +392,7 @@ main {
     color: #dffbfc;
     font-weight: 500;
     border-radius: 30px;
+    cursor: pointer;
     text-transform: uppercase;
 }
 .footer_copy{
@@ -381,7 +421,43 @@ main {
 }
 /* CALCULADORA*/
 #calculator {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #ee6b4d;
     padding-top: 20px;
     text-align: center;
-  }
+    font-size: 18px;
+}
+.class_title{
+    color: #293241;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.strong_calculator{
+    color: #ee6b4d;
+}
+#dailyConsumption{
+    width: 20%;
+    padding: 10px;
+    border-radius: 30px;
+    border: 2px solid #3D5B81;
+    background-color: #dffbfc38;
+}
+#result{
+    padding: 15px;
+    font-weight: 600;
+}
+.button_calculator{
+    background-color: #3D5B81;
+    color: #dffbfc;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 15px;
+    border-radius: 32px;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+}
+.button_calculator:hover{
+    background-color: #ee6b4d;
+}

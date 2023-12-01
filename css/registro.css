@@ -1,18 +1,87 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+:root{
+    --padding-container: 100px 0;
+    --color-title: #121D40; 
 
+}
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #DFFBFC;
-    /* background: url(../images/); */
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+.hero{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #293241;
 }
 
+/* ---------------NAV--------------- */
+nav{
+    --padding-container: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.nav_logo{
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+
+#logo{
+    width: auto;
+    height: 100px;
+}
+.nav_title{
+    font-weight: 300;
+}
+.nav_items{
+    list-style: none;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.nav_link{
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+.nav_links{
+    color: white;
+    text-decoration: none;
+}
+.nav_links:hover {
+    color: #ee6b4d; 
+}
+.nav_menu{
+    margin-left: auto;
+    cursor: pointer;
+    display: none;
+}
+.nav_close{
+    display: var(--show, none);
+}
 .wrapper{
+    margin-top: 150px;
     position: relative;
     width: 400px;
     height: 440px;
@@ -59,7 +128,7 @@ body{
 
 .form-box h2{
     font-size: 2em;
-    color: #2C3359;
+    color: #293241;
     text-align: center;
 }
 
@@ -67,7 +136,7 @@ body{
     position: relative;
     width: 100%;
     height: 50px;
-    border-bottom: 2px solid #2C3359;
+    border-bottom: 2px solid #DFFBFC;
     margin: 30px 0;
 }
 
@@ -138,7 +207,8 @@ body{
     color: #DFFBFC;
     border: none;
     outline: none;
-    border-radius: 6px;
+    border-radius: 30px;
+    text-transform: uppercase;
     cursor: pointer;
     font-size: 1em;
     font-weight: 500;
@@ -164,4 +234,3 @@ body{
 .login-register p a:hover{
     text-decoration: underline;
 }
-
