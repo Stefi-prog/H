@@ -391,20 +391,6 @@ main {
     cursor: pointer;
     text-transform: uppercase;
 }
-/* .footer_submit{
-    margin-left: auto;
-    display: inline-block;
-    height: 50px;
-    padding: 0 20px;
-    background-color: #ee6b4d;
-    border: none;
-    font-size: 1rem;
-    color: #dffbfc;
-    font-weight: 500;
-    border-radius: 30px;
-    cursor: pointer;
-    text-transform: uppercase;
-} */
 .footer_copy{
     --padding-container: 30px 0;
     text-align: center;
@@ -417,7 +403,6 @@ main {
     font-size: 20px;
 }
 .footer_icon{
-    /* display: inline-block; */
     margin-bottom: 10px;
 }
 .icon_social{
@@ -471,5 +456,3 @@ main {
 .button_calculator:hover{
     background-color: #ee6b4d;
 }
-
-
