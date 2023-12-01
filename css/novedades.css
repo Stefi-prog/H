@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Raleway:ital,wght@1,100;1,400&display=swap');
 
-[17:19, 1/12/2023] Alma Pescar: *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,10 +35,6 @@ body{
 }
 
 /* ---------------NAV--------------- */
-nav{
-    --padding-container: 0…
-[17:19, 1/12/2023] Alma Pescar: registro.css
-[17:19, 1/12/2023] Alma Pescar: @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Raleway:ital,wght@1,100;1,400&display=swap');
 
 *{
     margin: 0;
@@ -302,7 +298,7 @@ h1{
     }
 }
 
-/---------------- DETALLE CARD 1 --------------------/
+---------------- DETALLE CARD1 --------------------
 
 main {
     text-align: justify; 
@@ -330,7 +326,7 @@ main {
     margin-bottom: 30px;
 }
 
-/---------------- FOOTER --------------------/
+---------------- FOOTER --------------------
 .footer{
     background-color: #293241;
 }
@@ -395,6 +391,20 @@ main {
     cursor: pointer;
     text-transform: uppercase;
 }
+/* .footer_submit{
+    margin-left: auto;
+    display: inline-block;
+    height: 50px;
+    padding: 0 20px;
+    background-color: #ee6b4d;
+    border: none;
+    font-size: 1rem;
+    color: #dffbfc;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+} */
 .footer_copy{
     --padding-container: 30px 0;
     text-align: center;
@@ -461,3 +471,5 @@ main {
 .button_calculator:hover{
     background-color: #ee6b4d;
 }
+
+
